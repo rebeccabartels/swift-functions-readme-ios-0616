@@ -6,9 +6,8 @@ func sayHello() {
 sayHello()
 sayHello()
 
-// Uncomment this line to see the error that is printed in the console.
-// (You can uncomment a line by removing the // at the beginning of the line.)
-//print(greeting)
+
+// print (greeting) is outside of the scope of the function, therefore IT CANNOT BE.
 
 
 func sayHelloToGarfield() {
@@ -33,5 +32,77 @@ sayHelloToCat("Mittens")
 let catFriend = "Socks"
 sayHelloToCat(catFriend)
 
+
+
 // Uncomment this line to see the error that is printed in the console.
 //sayHelloToCat()
+
+
+
+func sayGoodBye () {
+    let goodbye = "See ya later!"
+    print (goodbye)
+}
+
+sayGoodBye()
+sayGoodBye()
+
+func sayGoodbyeToMrPopkins () { //MrPopkins is my cat
+    print("Goodbye, MrPopkins, may your day be filled with mirth and merriment!")
+}
+
+func sayGoodbyeToSherlockHolmes () {
+    print("Goodbye, Holmes. I'm off to find Watson!")
+}
+
+func sayGoodbyeToOliverTwist () {
+    print ("Well, Oliver, \(sayGoodBye()) and I hope you have some more!")
+}
+
+
+
+
+
+
+
+
+// Playing w. Funcs. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
